@@ -1,0 +1,50 @@
+﻿                 PROPRIETES MASSIQUES DE ASSEMBLAGE SMC_LEFS25A
+
+                         VOLUME =  9.1373509e+05 MM^3
+                     SUPERFICIE =  1.0188778e+05 MM^2
+        MASSE VOLUMIQUE MOYENNE =  2.9098240e-06 KILOGRAMME / MM^3
+                          MASSE =  2.6588083e+00 KILOGRAMME 
+
+               CENTRE DE GRAVITE relatif au repère _SMC_LEFS25A :
+X   Y   Z           1.1674217e-03  2.4946743e+01  5.2699396e+01  MM
+
+         INERTIE relative au repère _SMC_LEFS25A :  (KILOGRAMME * MM^2)
+
+TENSEUR D'INERTIE :
+Ixx Ixy Ixz         4.0563199e+04  0.0000000e+00 -1.1017526e+00
+Iyx Iyy Iyz         0.0000000e+00  3.8948206e+04 -2.3461553e+03
+Izx Izy Izz        -1.1017526e+00 -2.3461553e+03  2.8931236e+03
+
+         INERTIE au CENTRE DE GRAVITE relative au repère _SMC_LEFS25A :
+                                                    (KILOGRAMME * MM^2)         
+TENSEUR D'INERTIE :
+Ixx Ixy Ixz         3.1524404e+04  8.3044815e-02 -9.3817628e-01
+Iyx Iyy Iyz         8.3044815e-02  3.1564093e+04  1.1493223e+03
+Izx Izy Izz        -9.3817628e-01  1.1493223e+03  1.2384409e+03
+
+               MOMENTS PRINCIPAUX D'INERTIE :  (KILOGRAMME * MM^2)
+I1  I2  I3          1.1949447e+03  3.1524404e+04  3.1607590e+04
+
+    MATRICE ROTATION _SMC_LEFS25A orientée par rapport aux AXES PRINCIPAUX :
+                       0.00003        1.00000        0.00057
+                      -0.03782       -0.00057        0.99928
+                       0.99928       -0.00005        0.03782
+
+ANGLES DE ROTATION _SMC_LEFS25A orientés par rapport aux AXES PRINCIPAUX (degrés):
+angles suivant x y z  -87.833          0.000        -89.998 
+
+               RAYON DE GYRATION PAR RAPPORT AUX AXES PRINCIPAUX :
+R1  R2  R3          2.1199733e+01  1.0888798e+02  1.0903155e+02  MM
+
+
+
+               PROPRIETES MASSIQUES DES COMPOSANTS DE L'ASSEMBLAGE
+               (en unités de l'assemblage et repère _SMC_LEFS25A)
+
+                                     MATIERE
+           MASSE VOLU     MASSE      C.G :  X        Y         Z
+
+    LEFS25_150_0__BODY               EN_AW_5083
+         2.66000e-06  2.31124e+00  1.62952e-03  2.22325e+01  5.25038e+01
+    LEFS25_0__TABLE                  UNKNOWN
+         7.75000e-06  3.47567e-01 -1.90543e-03  4.29962e+01  5.40000e+01
