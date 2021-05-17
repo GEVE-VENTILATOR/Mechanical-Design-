@@ -1,0 +1,20 @@
+Added Component: Designator=TP33(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetTP33_1 Pin=TP33-1
+Added Pin To Net: NetName=NetTP33_1 Pin=U3-23
+Added Net: Name=NetTP33_1
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP33 TP_HOOK
+Added Room: Name=Schema_GEVE

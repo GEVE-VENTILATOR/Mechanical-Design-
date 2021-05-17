@@ -1,0 +1,274 @@
+*************************************************************
+FileName = PCB_GEVE.GBR
+AutoAperture = True
+*************************************************************
+Generating : Component Side
+      File : PCB_GEVE.GTL
+
+    Adding Layer      : Component Side
+
+    Adding Layer      : Mechanical 16
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : PCB_GEVE.G1
+
+    Adding Layer      : GND
+
+    Adding Layer      : Mechanical 16
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D20
+    D22
+    D23
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Alimentation
+      File : PCB_GEVE.G2
+
+    Adding Layer      : Alimentation
+
+    Adding Layer      : Mechanical 16
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D20
+    D23
+    D24
+    D25
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Solder Side
+      File : PCB_GEVE.GBL
+
+    Adding Layer      : Solder Side
+
+    Adding Layer      : Mechanical 16
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D13
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : PCB_GEVE.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Mechanical 16
+
+
+Used DCodes :
+    D17
+    D18
+    D36
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : PCB_GEVE.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Mechanical 16
+
+    Adding Layer      : Component Side
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : PCB_GEVE.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Mechanical 16
+
+    Adding Layer      : Component Side
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D17
+    D18
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : PCB_GEVE.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Mechanical 16
+
+    Adding Layer      : Solder Side
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D17
+    D18
+    D28
+    D29
+    D32
+    D33
+    D41
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : PCB_GEVE.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Mechanical 16
+
+    Adding Layer      : Solder Side
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D13
+    D17
+    D18
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PCB_GEVE.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 16
+
+
+Used DCodes :
+    D17
+    D18
+    D37
+    D38
+    D39
+    D57
+*************************************************************
+

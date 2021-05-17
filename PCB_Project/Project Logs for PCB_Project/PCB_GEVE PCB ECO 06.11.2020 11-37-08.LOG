@@ -1,0 +1,26 @@
+Added Component: Designator=LCD1(LCD2004)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "B.Musy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastestRevision"; Value = "05.11.2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Geekcreit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "LCP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Banggood"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1Link"; Value = "https://www.banggood.com/Geekcreit-IIC-I2C-2004-204-20-x-4-Character-LCD-Display-Screen-Module-Blue-Geekcreit-for-Arduino-products-that-work-with-official-Arduino-boards-p-908616.html?akmClientCountry=CH&utm_design=41&utm_source=emarsys&utm_medium=Neworder171109&utm_campaign=trigger-order&utm_content=winna&sc_src=email_2675773&sc_eh=e67184d980d793a21&sc_llid=15736518&sc_lid=105229698&sc_uid=BLRGE8BQiu&cur_warehouse=UK"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=LCD1-1
+Added Pin To Net: NetName=5V LCD Pin=LCD1-2
+Added Pin To Net: NetName=SDA Pin=LCD1-3
+Added Pin To Net: NetName=SCL Pin=LCD1-4
+Added Pin To Net: NetName=GND Pin=LCD1-5
+Added Pin To Net: NetName=5V LCD Pin=LCD1-6
+Added Pin To Net: NetName=NetLCD1_7 Pin=LCD1-7
+Added Pin To Net: NetName=NetLCD1_8 Pin=LCD1-8
+Added Pin To Net: NetName=NetLCD1_9 Pin=LCD1-9
+Added Pin To Net: NetName=NetLCD1_10 Pin=LCD1-10
+Added Pin To Net: NetName=NetLCD1_15 Pin=LCD1-15
+Added Pin To Net: NetName=NetLCD1_16 Pin=LCD1-16
+Added Pin To Net: NetName=NetLCD1_17 Pin=LCD1-17
+Added Pin To Net: NetName=NetLCD1_18 Pin=LCD1-18
+Added Pin To Net: NetName=NetJU1_2 Pin=LCD1-19
+Added Pin To Net: NetName=NetLCD1_20 Pin=LCD1-20
+Added Member To Class: ClassName=Schema_GEVE Member=Component LCD1 LCD2004A
+Added Room: Name=Schema_GEVE

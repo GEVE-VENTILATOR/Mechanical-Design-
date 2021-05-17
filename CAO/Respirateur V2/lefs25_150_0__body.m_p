@@ -1,0 +1,38 @@
+﻿                PROPRIETES MASSIQUES DE PIÈCE LEFS25_150_0__BODY
+
+                         VOLUME =  8.6888775e+05 MM^3
+                     SUPERFICIE =  8.7996146e+04 MM^2
+                MASSE VOLUMIQUE =  7.7500000e-06 KILOGRAMME / MM^3
+                          MASSE =  6.7338801e+00 KILOGRAMME 
+
+             CENTRE DE GRAVITE relatif au repère _LEFS25_150_0__BO :
+X   Y   Z           1.6295204e-03  2.2232452e+01  5.2503810e+01  MM
+
+       INERTIE relative au repère _LEFS25_150_0__BO :  (KILOGRAMME * MM^2)
+
+TENSEUR D'INERTIE :
+Ixx Ixy Ixz         1.1252118e+05 -7.3375170e-02 -3.3140887e+00
+Iyx Iyy Iyz        -7.3375170e-02  1.0948501e+05 -4.4844441e+03
+Izx Izy Izz        -3.3140887e+00 -4.4844441e+03  6.3400620e+03
+
+       INERTIE au CENTRE DE GRAVITE relative au repère _LEFS25_150_0__BO :
+                                                      (KILOGRAMME * MM^2)       
+TENSEUR D'INERTIE :
+Ixx Ixy Ixz         9.0629789e+04  1.7058142e-01 -2.7379646e+00
+Iyx Iyy Iyz         1.7058142e-01  9.0922055e+04  3.3759363e+03
+Izx Izy Izz        -2.7379646e+00  3.3759363e+03  3.0116269e+03
+
+               MOMENTS PRINCIPAUX D'INERTIE :  (KILOGRAMME * MM^2)
+I1  I2  I3          2.8821747e+03  9.0629789e+04  9.1051507e+04
+
+  MATRICE ROTATION _LEFS25_150_0__BO orientée par rapport aux AXES PRINCIPAUX :
+                       0.00003        1.00000        0.00016
+                      -0.03832       -0.00015        0.99927
+                       0.99927       -0.00004        0.03832
+
+ANGLES DE ROTATION _LEFS25_150_0__BO orientés par rapport aux AXES PRINCIPAUX (degrés):
+angles suivant x y z  -87.804          0.000        -89.998 
+
+               RAYON DE GYRATION PAR RAPPORT AUX AXES PRINCIPAUX :
+R1  R2  R3          2.0688426e+01  1.1601197e+02  1.1628157e+02  MM
+

@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=Pot1-2
+Removed Pin From Net: NetName=POT_BPM Pin=Pot1-3
+Removed Pin From Net: NetName=GND Pin=Pot2-2
+Removed Pin From Net: NetName=POT_VT Pin=Pot2-3
+Removed Pin From Net: NetName=GND Pin=Pot3-2
+Removed Pin From Net: NetName=POT_IE Pin=Pot3-3
+Added Pin To Net: NetName=POT_BPM Pin=Pot1-2
+Added Pin To Net: NetName=GND Pin=Pot1-3
+Added Pin To Net: NetName=POT_VT Pin=Pot2-2
+Added Pin To Net: NetName=GND Pin=Pot2-3
+Added Pin To Net: NetName=POT_IE Pin=Pot3-2
+Added Pin To Net: NetName=GND Pin=Pot3-3
+Added Room: Name=Schema_GEVE

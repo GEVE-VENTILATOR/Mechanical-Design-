@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=POT_BPM Pin=J7-1
+Removed Pin From Net: NetName=POT_VT Pin=J7-2
+Removed Pin From Net: NetName=POT_IE Pin=J7-3
+Removed Pin From Net: NetName=CaptPression Pin=J7-4
+Removed Pin From Net: NetName=SDA Pin=J7-5
+Removed Pin From Net: NetName=SCL Pin=J7-6
+Removed Pin From Net: NetName=NetB1_2 Pin=J_IOH1-2
+Removed Pin From Net: NetName=NP+ Pin=J_IOH1-3
+Removed Pin From Net: NetName=PP+ Pin=J_IOH1-4
+Removed Pin From Net: NetName=SETUP Pin=J_IOH1-5
+Removed Pin From Net: NetName=NetJ_IOH1_6 Pin=J_IOH1-6
+Removed Pin From Net: NetName=Btn On/Off Pin=J_IOL1-3
+Removed Pin From Net: NetName=Btn Errors Reset Pin=J_IOL1-4
+Removed Pin From Net: NetName=WAREA Pin=J_IOL1-5
+Removed Pin From Net: NetName=BUSY Pin=J_IOL1-6
+Removed Pin From Net: NetName=SETON Pin=J_IOL1-7
+Removed Pin From Net: NetName=INP Pin=J_IOL1-8
+Removed Pin From Net: NetName=GND Pin=J_Power_Uno1-2
+Removed Pin From Net: NetName=GND Pin=J_Power_Uno1-3
+Removed Pin From Net: NetName=5V Pin=J_Power_Uno1-4
+Removed Member From Class: ClassName=Schema_GEVE Member=J7
+Removed Member From Class: ClassName=Schema_GEVE Member=J_IOH1
+Removed Member From Class: ClassName=Schema_GEVE Member=J_IOL1
+Removed Member From Class: ClassName=Schema_GEVE Member=J_Power_Uno1
+Change Net Name : Old Net Name=NetJ_IOH1_6 New Net Name=NetR7_1
+Added Room: Name=Schema_GEVE

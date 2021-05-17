@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PCB_GEVE.PcbDoc   17.11.2020  11:20:41
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Component Side to Solder Side
+ASCII RoundHoles File : PCB_GEVE.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.635mm (25mil)                                           Round             8         PTH        28.70mm (1.13inch)
+T2      0.711mm (28mil)                                           Round             24        PTH        415.61mm (16.36inch)
+T3      1mm (39mil)                                               Round             34        PTH        337.72mm (13.30inch)
+T4      1.016mm (40mil)                                           Round             64        PTH        612.17mm (24.10inch)
+T5      1.2mm (47mil)                                             Round             14        PTH        279.24mm (10.99inch)
+T6      1.4mm (55mil)                                             Round             18        PTH        372.07mm (14.65inch)
+T7      3.3mm (130mil)                                            Round             12        NPTH       644.99mm (25.39inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              174
+
+Total Processing Time (hh:mm:ss) : 00:00:01

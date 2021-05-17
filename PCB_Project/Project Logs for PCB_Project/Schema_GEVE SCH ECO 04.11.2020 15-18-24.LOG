@@ -1,0 +1,16 @@
+Remove Pin=Q1-3 From Net=SETUP
+Remove Pin=U2B-9 From Net=POT_BPM
+Remove Pin=U2B-10 From Net=POT_VT
+Remove Pin=U2B-11 From Net=POT_IE
+Remove Pin=U2B-12 From Net=CaptPression
+Remove Pin=U2B-13 From Net=SDA
+Remove Pin=U2B-14 From Net=SCL
+Remove Pin=U2C-17 From Net=Btn On/Off
+Remove Pin=U2C-18 From Net=Btn Errors Reset
+Remove Pin=U2C-19 From Net=WAREA
+Remove Pin=U2C-20 From Net=BUSY
+Remove Pin=U2C-21 From Net=SETON
+Remove Pin=U2C-22 From Net=INP
+Remove Pin=U2D-25 From Net=NP+
+Remove Pin=U2D-26 From Net=PP+
+Remove Pin=U2D-27 From Net=SETUP

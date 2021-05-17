@@ -1,0 +1,681 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD17\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">26.11.2020</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">09:29:55</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc" class="file"><acronym title="Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc">Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">108</td></tr>
+</table>
+</td>
+</table><a name="IDHKMPAQXPKP13NURB440YTYA1QPIEXMYNRGQHETF3HJDYG4Q2G2HL"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUWGXGTXJQS34GB4YSTGOE2GBUKHKPI3CXHKSDXLGRAF0V3DSVGMC">Clearance Constraint (Gap=0.15mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPVBJYSHCYG3DGKM2JYL42OOMZKROCGTIAI4NFWGUZSGWQPRYGIFC">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYDECXNDIOKJVLFY4MZKKJN4DGJDBKJNZXCNF5DEJYIYG5IHQTT4B">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXQOKGBAATDEOBMDFC11VX4O5OFZZSPCJ5KGO0OWPDR5ORRG1I4I">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCM0B1F5INQT3C20BBTDFZTU5KDQN311HQFND0QMH2J3GO0U5LIFO">Width Constraint (Min=0.15mm) (Max=1.5mm) (Preferred=0.5mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEJ1F2XODLYLZIRJI0ELUAYG1MISJPP4QOYVWWDCBI310DJYLNZPJ">Power Plane Connect Rule(Relief Connect )(Expansion=0.4mm) (Conductor Width=0.4mm) (Air Gap=0.2mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFBA033LBKLPHPKTO0DZOG1SCTEXIH5BOOJ10OQDWFLY3MIR1DS3">Minimum Annular Ring (Minimum=0.225mm) (((ObjectKind = 'Pad') OR (ObjectKind = 'Via')) And (Layer = 'MultiLayer') And (HoleDiameter &lt;= AsMM(0.45)))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5WS3WDCXCRTGGF2RECPBTWKLPOHFMM4JMLM35BGIRBWX0LBRG3J">Minimum Annular Ring (Minimum=0.25mm) (((ObjectKind = 'Pad') OR (ObjectKind = 'Via')) And (Layer = 'MultiLayer') And (HoleDiameter &gt; AsMM(0.45)))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWZG4W3JSAWZ1HWO4SWDUWOCVQKN1DCZLMQV3Z1I0GWH2N4OVNEIC">Hole Size Constraint (Min=0.25mm) (Max=2mm) (All)</a></td>
+<td class="column2">12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVB0OXNCCAKVRBMSVI14OLP5IELQAWAYVGUWDDUECOTYKK02RIRQ">Hole To Hole Clearance (Gap=0.15mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIY43YVA2URSGFFN2G5DUS0DIPL3PMMJWGIFLO2FL01Y2YHNSNN5L">Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID40XQ2H1BYXFZBRO3HPMXDVWW4KUCJ1DDPX03YKLKXVSONWXPB0JL">Silk To Solder Mask (Clearance=0.2mm) (IsPad),(All)</a></td>
+<td class="column2">73</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0XMJ2QPEYCVZCHMDVQ3HUYJ2AK5GPE4GBI2HX1JL5SYPVGHRA40B">Silk to Silk (Clearance=0.2mm) (All),(All)</a></td>
+<td class="column2">19</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJO2HGHV1MRZLESB2DQY4HVLPOGT235CVAE24QGCR5DW4V3JJ2R2B">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJDULEWO4VHFNF1YSHYNQFWUCRFOEQCTD5RPBXNOMES25XIOOOOKB">Room Composants_Supplementaire (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Composants_Supplementaire'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDT34VA5RVJWCULKBGFXEKKYEQKJVJSUG0W0NHSHKTFMWNWMRUW3CH">Height Constraint (Min=0mm) (Max=25mm) (Prefered=12.5mm) (All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">108</td>
+</tr>
+</table><br><a name="IDYDECXNDIOKJVLFY4MZKKJN4DGJDBKJNZXCNF5DEJYIYG5IHQTT4B"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11968.504mil|Location2.X=12154.921mil|Location1.Y=13191.535mil|Location2.Y=14000mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11968.504mil|Location2.X=12154.921mil|Location1.Y=13191.535mil|Location2.Y=14000mil|Absolute=True">Un-Routed Net Constraint: Net GND24V Between Pad R7-2(103.55mm,55.5mm) on Solder Side And Via (107mm,36.3mm) from Component Side to Solder Side </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDWZG4W3JSAWZ1HWO4SWDUWOCVQKN1DCZLMQV3Z1I0GWH2N4OVNEIC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole Size Constraint (Min=0.25mm) (Max=2mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10901.344mil|Location2.X=11032.515mil|Location1.Y=13075.202mil|Location2.Y=13206.373mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10901.344mil|Location2.X=11032.515mil|Location1.Y=13075.202mil|Location2.Y=13206.373mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad U3-(77.56mm,34.276mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9801.344mil|Location2.X=9932.515mil|Location1.Y=13075.202mil|Location2.Y=13206.373mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9801.344mil|Location2.X=9932.515mil|Location1.Y=13075.202mil|Location2.Y=13206.373mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad U3-(49.62mm,34.276mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11501.344mil|Location2.X=11632.515mil|Location1.Y=15075.202mil|Location2.Y=15206.373mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11501.344mil|Location2.X=11632.515mil|Location1.Y=15075.202mil|Location2.Y=15206.373mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad U3-(92.8mm,85.076mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9601.344mil|Location2.X=9732.515mil|Location1.Y=15125.202mil|Location2.Y=15256.373mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9601.344mil|Location2.X=9732.515mil|Location1.Y=15125.202mil|Location2.Y=15256.373mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad U3-(44.54mm,86.346mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8733.627mil|Location2.X=8864.798mil|Location1.Y=14973.784mil|Location2.Y=15104.956mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8733.627mil|Location2.X=8864.798mil|Location1.Y=14973.784mil|Location2.Y=15104.956mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad LCD1-(22.5mm,82.5mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8733.627mil|Location2.X=8864.798mil|Location1.Y=17139.139mil|Location2.Y=17270.31mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8733.627mil|Location2.X=8864.798mil|Location1.Y=17139.139mil|Location2.Y=17270.31mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad LCD1-(22.5mm,137.5mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12395.044mil|Location2.X=12526.216mil|Location1.Y=14973.784mil|Location2.Y=15104.956mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12395.044mil|Location2.X=12526.216mil|Location1.Y=14973.784mil|Location2.Y=15104.956mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad LCD1-(115.5mm,82.5mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12395.044mil|Location2.X=12526.216mil|Location1.Y=17139.139mil|Location2.Y=17270.31mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12395.044mil|Location2.X=12526.216mil|Location1.Y=17139.139mil|Location2.Y=17270.31mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad LCD1-(115.5mm,137.5mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7946.225mil|Location2.X=8077.397mil|Location1.Y=11824.178mil|Location2.Y=11955.349mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7946.225mil|Location2.X=8077.397mil|Location1.Y=11824.178mil|Location2.Y=11955.349mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad Free-(2.5mm,2.5mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13182.446mil|Location2.X=13313.617mil|Location1.Y=13202.131mil|Location2.Y=13333.302mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13182.446mil|Location2.X=13313.617mil|Location1.Y=13202.131mil|Location2.Y=13333.302mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad Free-(135.5mm,37.5mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7946.225mil|Location2.X=8077.397mil|Location1.Y=13202.131mil|Location2.Y=13333.302mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7946.225mil|Location2.X=8077.397mil|Location1.Y=13202.131mil|Location2.Y=13333.302mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad Free-(2.5mm,37.5mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13182.446mil|Location2.X=13313.617mil|Location1.Y=11824.178mil|Location2.Y=11955.349mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13182.446mil|Location2.X=13313.617mil|Location1.Y=11824.178mil|Location2.Y=11955.349mil|Absolute=True">Hole Size Constraint: (3.3mm &gt; 2mm) Pad Free-(135.5mm,2.5mm) on Multi-Layer Actual Hole Size = 3.3mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID40XQ2H1BYXFZBRO3HPMXDVWW4KUCJ1DDPX03YKLKXVSONWXPB0JL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.2mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11332.135mil|Location2.X=11341.259mil|Location1.Y=12950.079mil|Location2.Y=12959.203mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11332.135mil|Location2.X=11341.259mil|Location1.Y=12950.079mil|Location2.Y=12959.203mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (86mm,30.5mm) on Top Overlay And Pad TP33-1(86mm,30.5mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.466mil|Location2.X=11695.59mil|Location1.Y=12950.079mil|Location2.Y=12959.203mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.466mil|Location2.X=11695.59mil|Location1.Y=12950.079mil|Location2.Y=12959.203mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (95mm,30.5mm) on Top Overlay And Pad TP32-1(95mm,30.5mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11883.316mil|Location2.X=11892.44mil|Location1.Y=12950.079mil|Location2.Y=12959.203mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11883.316mil|Location2.X=11892.44mil|Location1.Y=12950.079mil|Location2.Y=12959.203mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (100mm,30.5mm) on Top Overlay And Pad TP31-1(100mm,30.5mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11737.647mil|Location2.X=11746.771mil|Location1.Y=15796.536mil|Location2.Y=15805.66mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11737.647mil|Location2.X=11746.771mil|Location1.Y=15796.536mil|Location2.Y=15805.66mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (96.3mm,102.8mm) on Top Overlay And Pad TP30-1(96.3mm,102.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10517.175mil|Location2.X=10526.299mil|Location1.Y=15796.536mil|Location2.Y=15805.66mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10517.175mil|Location2.X=10526.299mil|Location1.Y=15796.536mil|Location2.Y=15805.66mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (65.3mm,102.8mm) on Top Overlay And Pad TP29-1(65.3mm,102.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11580.167mil|Location2.X=11589.291mil|Location1.Y=15875.276mil|Location2.Y=15884.4mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11580.167mil|Location2.X=11589.291mil|Location1.Y=15875.276mil|Location2.Y=15884.4mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (92.3mm,104.8mm) on Top Overlay And Pad TP28-1(92.3mm,104.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10674.655mil|Location2.X=10683.779mil|Location1.Y=15875.276mil|Location2.Y=15884.4mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10674.655mil|Location2.X=10683.779mil|Location1.Y=15875.276mil|Location2.Y=15884.4mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (69.3mm,104.8mm) on Top Overlay And Pad TP27-1(69.3mm,104.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11737.647mil|Location2.X=11746.771mil|Location1.Y=15954.016mil|Location2.Y=15963.14mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11737.647mil|Location2.X=11746.771mil|Location1.Y=15954.016mil|Location2.Y=15963.14mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (96.3mm,106.8mm) on Top Overlay And Pad TP26-1(96.3mm,106.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10517.175mil|Location2.X=10526.299mil|Location1.Y=15954.016mil|Location2.Y=15963.14mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10517.175mil|Location2.X=10526.299mil|Location1.Y=15954.016mil|Location2.Y=15963.14mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (65.3mm,106.8mm) on Top Overlay And Pad TP25-1(65.3mm,106.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11580.167mil|Location2.X=11589.291mil|Location1.Y=16032.756mil|Location2.Y=16041.88mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11580.167mil|Location2.X=11589.291mil|Location1.Y=16032.756mil|Location2.Y=16041.88mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (92.3mm,108.8mm) on Top Overlay And Pad TP24-1(92.3mm,108.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10674.655mil|Location2.X=10683.779mil|Location1.Y=16032.756mil|Location2.Y=16041.88mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10674.655mil|Location2.X=10683.779mil|Location1.Y=16032.756mil|Location2.Y=16041.88mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (69.3mm,108.8mm) on Top Overlay And Pad TP23-1(69.3mm,108.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11737.647mil|Location2.X=11746.771mil|Location1.Y=16111.496mil|Location2.Y=16120.62mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11737.647mil|Location2.X=11746.771mil|Location1.Y=16111.496mil|Location2.Y=16120.62mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (96.3mm,110.8mm) on Top Overlay And Pad TP22-1(96.3mm,110.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10517.175mil|Location2.X=10526.299mil|Location1.Y=16111.496mil|Location2.Y=16120.62mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10517.175mil|Location2.X=10526.299mil|Location1.Y=16111.496mil|Location2.Y=16120.62mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (65.3mm,110.8mm) on Top Overlay And Pad TP21-1(65.3mm,110.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11580.167mil|Location2.X=11589.291mil|Location1.Y=16190.237mil|Location2.Y=16199.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11580.167mil|Location2.X=11589.291mil|Location1.Y=16190.237mil|Location2.Y=16199.361mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (92.3mm,112.8mm) on Top Overlay And Pad TP20-1(92.3mm,112.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10674.655mil|Location2.X=10683.779mil|Location1.Y=16190.237mil|Location2.Y=16199.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10674.655mil|Location2.X=10683.779mil|Location1.Y=16190.237mil|Location2.Y=16199.361mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (69.3mm,112.8mm) on Top Overlay And Pad TP19-1(69.3mm,112.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8261.269mil|Location2.X=8270.393mil|Location1.Y=13048.504mil|Location2.Y=13057.628mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8261.269mil|Location2.X=8270.393mil|Location1.Y=13048.504mil|Location2.Y=13057.628mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (8mm,33mm) on Top Overlay And Pad TP18-1(8mm,33mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13064.419mil|Location2.X=13073.543mil|Location1.Y=12930.394mil|Location2.Y=12939.518mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13064.419mil|Location2.X=13073.543mil|Location1.Y=12930.394mil|Location2.Y=12939.518mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (130mm,30mm) on Top Overlay And Pad TP17-1(130mm,30mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11450.246mil|Location2.X=11459.37mil|Location1.Y=12103.622mil|Location2.Y=12112.746mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11450.246mil|Location2.X=11459.37mil|Location1.Y=12103.622mil|Location2.Y=12112.746mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (89mm,9mm) on Top Overlay And Pad TP16-1(89mm,9mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.466mil|Location2.X=11695.59mil|Location1.Y=12103.622mil|Location2.Y=12112.746mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.466mil|Location2.X=11695.59mil|Location1.Y=12103.622mil|Location2.Y=12112.746mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (95mm,9mm) on Top Overlay And Pad TP15-1(95mm,9mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11450.246mil|Location2.X=11459.37mil|Location1.Y=12418.583mil|Location2.Y=12427.707mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11450.246mil|Location2.X=11459.37mil|Location1.Y=12418.583mil|Location2.Y=12427.707mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (89mm,17mm) on Top Overlay And Pad TP14-1(89mm,17mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.466mil|Location2.X=11695.59mil|Location1.Y=12418.583mil|Location2.Y=12427.707mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.466mil|Location2.X=11695.59mil|Location1.Y=12418.583mil|Location2.Y=12427.707mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (95mm,17mm) on Top Overlay And Pad TP13-1(95mm,17mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9481.742mil|Location2.X=9490.866mil|Location1.Y=13284.725mil|Location2.Y=13293.849mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9481.742mil|Location2.X=9490.866mil|Location1.Y=13284.725mil|Location2.Y=13293.849mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (39mm,39mm) on Top Overlay And Pad TP12-1(39mm,39mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9477.805mil|Location2.X=9486.929mil|Location1.Y=13048.504mil|Location2.Y=13057.628mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9477.805mil|Location2.X=9486.929mil|Location1.Y=13048.504mil|Location2.Y=13057.628mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (38.9mm,33mm) on Top Overlay And Pad TP11-1(38.9mm,33mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11450.246mil|Location2.X=11459.37mil|Location1.Y=12733.544mil|Location2.Y=12742.668mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11450.246mil|Location2.X=11459.37mil|Location1.Y=12733.544mil|Location2.Y=12742.668mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (89mm,25mm) on Top Overlay And Pad TP10-1(89mm,25mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.466mil|Location2.X=11695.59mil|Location1.Y=12733.544mil|Location2.Y=12742.668mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.466mil|Location2.X=11695.59mil|Location1.Y=12733.544mil|Location2.Y=12742.668mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (95mm,25mm) on Top Overlay And Pad TP9-1(95mm,25mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12867.568mil|Location2.X=12876.692mil|Location1.Y=12930.394mil|Location2.Y=12939.518mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12867.568mil|Location2.X=12876.692mil|Location1.Y=12930.394mil|Location2.Y=12939.518mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (125mm,30mm) on Top Overlay And Pad TP8-1(125mm,30mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9914.812mil|Location2.X=9923.936mil|Location1.Y=12891.024mil|Location2.Y=12900.148mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9914.812mil|Location2.X=9923.936mil|Location1.Y=12891.024mil|Location2.Y=12900.148mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (50mm,29mm) on Top Overlay And Pad TP7-1(50mm,29mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11903.001mil|Location2.X=11912.125mil|Location1.Y=14812.284mil|Location2.Y=14821.408mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11903.001mil|Location2.X=11912.125mil|Location1.Y=14812.284mil|Location2.Y=14821.408mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (100.5mm,77.8mm) on Top Overlay And Pad TP6-1(100.5mm,77.8mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12631.348mil|Location2.X=12640.472mil|Location1.Y=13056.378mil|Location2.Y=13065.502mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12631.348mil|Location2.X=12640.472mil|Location1.Y=13056.378mil|Location2.Y=13065.502mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (119mm,33.2mm) on Top Overlay And Pad TP5-1(119mm,33.2mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8536.86mil|Location2.X=8545.984mil|Location1.Y=13048.504mil|Location2.Y=13057.628mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8536.86mil|Location2.X=8545.984mil|Location1.Y=13048.504mil|Location2.Y=13057.628mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (15mm,33mm) on Top Overlay And Pad TP4-1(15mm,33mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10505.364mil|Location2.X=10514.488mil|Location1.Y=13048.504mil|Location2.Y=13057.628mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10505.364mil|Location2.X=10514.488mil|Location1.Y=13048.504mil|Location2.Y=13057.628mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (65mm,33mm) on Top Overlay And Pad TP3-1(65mm,33mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10741.584mil|Location2.X=10750.708mil|Location1.Y=13265.04mil|Location2.Y=13274.164mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10741.584mil|Location2.X=10750.708mil|Location1.Y=13265.04mil|Location2.Y=13274.164mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (71mm,38.5mm) on Top Overlay And Pad TP2-1(71mm,38.5mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10741.584mil|Location2.X=10750.708mil|Location1.Y=13658.741mil|Location2.Y=13667.865mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10741.584mil|Location2.X=10750.708mil|Location1.Y=13658.741mil|Location2.Y=13667.865mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.152mm &lt; 0.2mm) Between Arc (71mm,48.5mm) on Top Overlay And Pad TP1-1(71mm,48.5mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.152mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11563.805mil|Location2.X=11570.054mil|Location1.Y=14937.681mil|Location2.Y=14943.93mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11563.805mil|Location2.X=11570.054mil|Location1.Y=14937.681mil|Location2.Y=14943.93mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.2mm) Between Track (20mm,80mm)(118mm,80mm) on Top Overlay And Pad U3-31(92.8mm,78.98mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10476.964mil|Location2.X=10483.213mil|Location1.Y=13039.45mil|Location2.Y=13045.699mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10476.964mil|Location2.X=10483.213mil|Location1.Y=13039.45mil|Location2.Y=13045.699mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.2mm) Between Track (47.077mm,31.781mm)(79.81mm,31.781mm) on Bottom Overlay And Pad TP3-1(65mm,33mm) on Multi-Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9474.714mil|Location2.X=9483.838mil|Location1.Y=16774.968mil|Location2.Y=16784.092mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9474.714mil|Location2.X=9483.838mil|Location1.Y=16774.968mil|Location2.Y=16784.092mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.2mm) Between Track (39.774mm,126.85mm)(39.774mm,127.65mm) on Bottom Overlay And Pad Pot4-1(40.1mm,126.1mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9474.714mil|Location2.X=9483.838mil|Location1.Y=16818.27mil|Location2.Y=16827.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9474.714mil|Location2.X=9483.838mil|Location1.Y=16818.27mil|Location2.Y=16827.394mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.2mm) Between Track (39.774mm,126.85mm)(39.774mm,127.65mm) on Bottom Overlay And Pad Pot4-3(40.11mm,128.4mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8952.221mil|Location2.X=8961.345mil|Location1.Y=15910.792mil|Location2.Y=15919.916mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8952.221mil|Location2.X=8961.345mil|Location1.Y=15910.792mil|Location2.Y=15919.916mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (26.353mm,100.956mm)(26.353mm,106.544mm) on Bottom Overlay And Pad FB4-2(27.75mm,105.55mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9050.466mil|Location2.X=9059.59mil|Location1.Y=15910.792mil|Location2.Y=15919.916mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9050.466mil|Location2.X=9059.59mil|Location1.Y=15910.792mil|Location2.Y=15919.916mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (29.147mm,100.956mm)(29.147mm,106.544mm) on Bottom Overlay And Pad FB4-2(27.75mm,105.55mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8954.099mil|Location2.X=8963.223mil|Location1.Y=15975.603mil|Location2.Y=15984.727mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8954.099mil|Location2.X=8963.223mil|Location1.Y=15975.603mil|Location2.Y=15984.727mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (26.353mm,106.544mm)(29.147mm,106.544mm) on Bottom Overlay And Pad FB4-2(27.75mm,105.55mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8951.237mil|Location2.X=8960.361mil|Location1.Y=15769.06mil|Location2.Y=15778.184mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8951.237mil|Location2.X=8960.361mil|Location1.Y=15769.06mil|Location2.Y=15778.184mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (26.353mm,100.956mm)(26.353mm,106.544mm) on Bottom Overlay And Pad FB4-1(27.75mm,101.95mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9051.45mil|Location2.X=9060.574mil|Location1.Y=15769.06mil|Location2.Y=15778.184mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9051.45mil|Location2.X=9060.574mil|Location1.Y=15769.06mil|Location2.Y=15778.184mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (29.147mm,100.956mm)(29.147mm,106.544mm) on Bottom Overlay And Pad FB4-1(27.75mm,101.95mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8952.131mil|Location2.X=8961.255mil|Location1.Y=15767.241mil|Location2.Y=15776.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8952.131mil|Location2.X=8961.255mil|Location1.Y=15767.241mil|Location2.Y=15776.365mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (26.353mm,100.956mm)(29.147mm,100.956mm) on Bottom Overlay And Pad FB4-1(27.75mm,101.95mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9182.595mil|Location2.X=9191.719mil|Location1.Y=16690.32mil|Location2.Y=16699.444mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9182.595mil|Location2.X=9191.719mil|Location1.Y=16690.32mil|Location2.Y=16699.444mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (32.206mm,124.353mm)(32.206mm,127.147mm) on Bottom Overlay And Pad FB3-2(33.2mm,125.75mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9184.415mil|Location2.X=9193.539mil|Location1.Y=16688.442mil|Location2.Y=16697.566mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9184.415mil|Location2.X=9193.539mil|Location1.Y=16688.442mil|Location2.Y=16697.566mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (32.206mm,124.353mm)(37.794mm,124.353mm) on Bottom Overlay And Pad FB3-2(33.2mm,125.75mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9184.415mil|Location2.X=9193.539mil|Location1.Y=16786.686mil|Location2.Y=16795.81mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9184.415mil|Location2.X=9193.539mil|Location1.Y=16786.686mil|Location2.Y=16795.81mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (32.206mm,127.147mm)(37.794mm,127.147mm) on Bottom Overlay And Pad FB3-2(33.2mm,125.75mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9390.958mil|Location2.X=9400.082mil|Location1.Y=16688.351mil|Location2.Y=16697.475mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9390.958mil|Location2.X=9400.082mil|Location1.Y=16688.351mil|Location2.Y=16697.475mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (37.794mm,124.353mm)(37.794mm,127.147mm) on Bottom Overlay And Pad FB3-1(36.8mm,125.75mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9326.147mil|Location2.X=9335.271mil|Location1.Y=16687.458mil|Location2.Y=16696.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9326.147mil|Location2.X=9335.271mil|Location1.Y=16687.458mil|Location2.Y=16696.582mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (32.206mm,124.353mm)(37.794mm,124.353mm) on Bottom Overlay And Pad FB3-1(36.8mm,125.75mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9326.147mil|Location2.X=9335.271mil|Location1.Y=16787.67mil|Location2.Y=16796.794mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9326.147mil|Location2.X=9335.271mil|Location1.Y=16787.67mil|Location2.Y=16796.794mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (32.206mm,127.147mm)(37.794mm,127.147mm) on Bottom Overlay And Pad FB3-1(36.8mm,125.75mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9182.595mil|Location2.X=9191.719mil|Location1.Y=16837.958mil|Location2.Y=16847.082mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9182.595mil|Location2.X=9191.719mil|Location1.Y=16837.958mil|Location2.Y=16847.082mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (32.206mm,128.103mm)(32.206mm,130.897mm) on Bottom Overlay And Pad FB2-2(33.2mm,129.5mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9184.415mil|Location2.X=9193.539mil|Location1.Y=16836.08mil|Location2.Y=16845.204mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9184.415mil|Location2.X=9193.539mil|Location1.Y=16836.08mil|Location2.Y=16845.204mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (32.206mm,128.103mm)(37.794mm,128.103mm) on Bottom Overlay And Pad FB2-2(33.2mm,129.5mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9184.415mil|Location2.X=9193.539mil|Location1.Y=16934.324mil|Location2.Y=16943.448mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9184.415mil|Location2.X=9193.539mil|Location1.Y=16934.324mil|Location2.Y=16943.448mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (32.206mm,130.897mm)(37.794mm,130.897mm) on Bottom Overlay And Pad FB2-2(33.2mm,129.5mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9390.958mil|Location2.X=9400.082mil|Location1.Y=16835.989mil|Location2.Y=16845.113mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9390.958mil|Location2.X=9400.082mil|Location1.Y=16835.989mil|Location2.Y=16845.113mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (37.794mm,128.103mm)(37.794mm,130.897mm) on Bottom Overlay And Pad FB2-1(36.8mm,129.5mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9326.147mil|Location2.X=9335.271mil|Location1.Y=16835.095mil|Location2.Y=16844.219mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9326.147mil|Location2.X=9335.271mil|Location1.Y=16835.095mil|Location2.Y=16844.219mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (32.206mm,128.103mm)(37.794mm,128.103mm) on Bottom Overlay And Pad FB2-1(36.8mm,129.5mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9326.147mil|Location2.X=9335.271mil|Location1.Y=16935.308mil|Location2.Y=16944.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9326.147mil|Location2.X=9335.271mil|Location1.Y=16935.308mil|Location2.Y=16944.432mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (32.206mm,130.897mm)(37.794mm,130.897mm) on Bottom Overlay And Pad FB2-1(36.8mm,129.5mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9040.564mil|Location2.X=9049.688mil|Location1.Y=12952.131mil|Location2.Y=12961.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9040.564mil|Location2.X=9049.688mil|Location1.Y=12952.131mil|Location2.Y=12961.255mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (28.894mm,29.403mm)(28.894mm,32.197mm) on Bottom Overlay And Pad FB1-2(27.9mm,30.8mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8975.753mil|Location2.X=8984.877mil|Location1.Y=12950.253mil|Location2.Y=12959.377mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8975.753mil|Location2.X=8984.877mil|Location1.Y=12950.253mil|Location2.Y=12959.377mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (23.306mm,29.403mm)(28.894mm,29.403mm) on Bottom Overlay And Pad FB1-2(27.9mm,30.8mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8975.753mil|Location2.X=8984.877mil|Location1.Y=13048.497mil|Location2.Y=13057.621mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8975.753mil|Location2.X=8984.877mil|Location1.Y=13048.497mil|Location2.Y=13057.621mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (23.306mm,32.197mm)(28.894mm,32.197mm) on Bottom Overlay And Pad FB1-2(27.9mm,30.8mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8832.202mil|Location2.X=8841.326mil|Location1.Y=12950.163mil|Location2.Y=12959.287mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8832.202mil|Location2.X=8841.326mil|Location1.Y=12950.163mil|Location2.Y=12959.287mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (23.306mm,29.403mm)(23.306mm,32.197mm) on Bottom Overlay And Pad FB1-1(24.3mm,30.8mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8834.021mil|Location2.X=8843.145mil|Location1.Y=12949.269mil|Location2.Y=12958.393mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8834.021mil|Location2.X=8843.145mil|Location1.Y=12949.269mil|Location2.Y=12958.393mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (23.306mm,29.403mm)(28.894mm,29.403mm) on Bottom Overlay And Pad FB1-1(24.3mm,30.8mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8834.021mil|Location2.X=8843.145mil|Location1.Y=13049.481mil|Location2.Y=13058.605mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8834.021mil|Location2.X=8843.145mil|Location1.Y=13049.481mil|Location2.Y=13058.605mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (23.306mm,32.197mm)(28.894mm,32.197mm) on Bottom Overlay And Pad FB1-1(24.3mm,30.8mm) on Solder Side [Bottom Overlay] to [Bottom Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10674.721mil|Location2.X=10683.845mil|Location1.Y=16899.139mil|Location2.Y=16908.263mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10674.721mil|Location2.X=10683.845mil|Location1.Y=16899.139mil|Location2.Y=16908.263mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (70.106mm,129.657mm)(70.106mm,132.451mm) on Top Overlay And Pad FB6-2(71.1mm,131.054mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10676.54mil|Location2.X=10685.665mil|Location1.Y=16897.261mil|Location2.Y=16906.385mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10676.54mil|Location2.X=10685.665mil|Location1.Y=16897.261mil|Location2.Y=16906.385mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (70.106mm,129.657mm)(75.694mm,129.657mm) on Top Overlay And Pad FB6-2(71.1mm,131.054mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10676.54mil|Location2.X=10685.665mil|Location1.Y=16995.505mil|Location2.Y=17004.629mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10676.54mil|Location2.X=10685.665mil|Location1.Y=16995.505mil|Location2.Y=17004.629mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (70.106mm,132.451mm)(75.694mm,132.451mm) on Top Overlay And Pad FB6-2(71.1mm,131.054mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10883.084mil|Location2.X=10892.208mil|Location1.Y=16897.17mil|Location2.Y=16906.294mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10883.084mil|Location2.X=10892.208mil|Location1.Y=16897.17mil|Location2.Y=16906.294mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (75.694mm,129.657mm)(75.694mm,132.451mm) on Top Overlay And Pad FB6-1(74.7mm,131.054mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10818.273mil|Location2.X=10827.397mil|Location1.Y=16896.276mil|Location2.Y=16905.4mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10818.273mil|Location2.X=10827.397mil|Location1.Y=16896.276mil|Location2.Y=16905.4mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (70.106mm,129.657mm)(75.694mm,129.657mm) on Top Overlay And Pad FB6-1(74.7mm,131.054mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10818.273mil|Location2.X=10827.397mil|Location1.Y=16996.489mil|Location2.Y=17005.613mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10818.273mil|Location2.X=10827.397mil|Location1.Y=16996.489mil|Location2.Y=17005.613mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (70.106mm,132.451mm)(75.694mm,132.451mm) on Top Overlay And Pad FB6-1(74.7mm,131.054mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10674.721mil|Location2.X=10683.845mil|Location1.Y=16761.343mil|Location2.Y=16770.467mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10674.721mil|Location2.X=10683.845mil|Location1.Y=16761.343mil|Location2.Y=16770.467mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (70.106mm,126.157mm)(70.106mm,128.951mm) on Top Overlay And Pad FB5-2(71.1mm,127.554mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10676.54mil|Location2.X=10685.665mil|Location1.Y=16759.465mil|Location2.Y=16768.589mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10676.54mil|Location2.X=10685.665mil|Location1.Y=16759.465mil|Location2.Y=16768.589mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (70.106mm,126.157mm)(75.694mm,126.157mm) on Top Overlay And Pad FB5-2(71.1mm,127.554mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10676.54mil|Location2.X=10685.665mil|Location1.Y=16857.71mil|Location2.Y=16866.834mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10676.54mil|Location2.X=10685.665mil|Location1.Y=16857.71mil|Location2.Y=16866.834mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.095mm &lt; 0.2mm) Between Track (70.106mm,128.951mm)(75.694mm,128.951mm) on Top Overlay And Pad FB5-2(71.1mm,127.554mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.095mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10883.084mil|Location2.X=10892.208mil|Location1.Y=16759.375mil|Location2.Y=16768.499mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10883.084mil|Location2.X=10892.208mil|Location1.Y=16759.375mil|Location2.Y=16768.499mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.092mm &lt; 0.2mm) Between Track (75.694mm,126.157mm)(75.694mm,128.951mm) on Top Overlay And Pad FB5-1(74.7mm,127.554mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.092mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10818.273mil|Location2.X=10827.397mil|Location1.Y=16758.481mil|Location2.Y=16767.605mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10818.273mil|Location2.X=10827.397mil|Location1.Y=16758.481mil|Location2.Y=16767.605mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (70.106mm,126.157mm)(75.694mm,126.157mm) on Top Overlay And Pad FB5-1(74.7mm,127.554mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10818.273mil|Location2.X=10827.397mil|Location1.Y=16858.694mil|Location2.Y=16867.818mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10818.273mil|Location2.X=10827.397mil|Location1.Y=16858.694mil|Location2.Y=16867.818mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.045mm &lt; 0.2mm) Between Track (70.106mm,128.951mm)(75.694mm,128.951mm) on Top Overlay And Pad FB5-1(74.7mm,127.554mm) on Component Side [Top Overlay] to [Top Solder] clearance [0.045mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID0XMJ2QPEYCVZCHMDVQ3HUYJ2AK5GPE4GBI2HX1JL5SYPVGHRA40B"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.2mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11664.118mil|Location2.X=11670.367mil|Location1.Y=14446.157mil|Location2.Y=14452.406mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11664.118mil|Location2.X=11670.367mil|Location1.Y=14446.157mil|Location2.Y=14452.406mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.2mm) Between Text "R4" (98mm,66.75mm) on Bottom Overlay And Track (95.299mm,35.844mm)(95.299mm,99.322mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.46mil|Location2.X=8811.584mil|Location1.Y=16080.605mil|Location2.Y=16089.729mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.46mil|Location2.X=8811.584mil|Location1.Y=16080.605mil|Location2.Y=16089.729mil|Absolute=True">Silk To Silk Clearance Constraint: (0.113mm &lt; 0.2mm) Between Text "A0-A1-A2" (21mm,108.5mm) on Bottom Overlay And Track (22.849mm,109.111mm)(26.151mm,109.111mm) on Bottom Overlay Silk Text to Silk Clearance [0.113mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.483mil|Location2.X=8811.607mil|Location1.Y=16128.408mil|Location2.Y=16137.532mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.483mil|Location2.X=8811.607mil|Location1.Y=16128.408mil|Location2.Y=16137.532mil|Absolute=True">Silk To Silk Clearance Constraint: (0.097mm &lt; 0.2mm) Between Text "A0-A1-A2" (21mm,108.5mm) on Bottom Overlay And Track (22.849mm,109.111mm)(22.849mm,110.889mm) on Bottom Overlay Silk Text to Silk Clearance [0.097mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.46mil|Location2.X=8811.584mil|Location1.Y=16150.595mil|Location2.Y=16159.719mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.46mil|Location2.X=8811.584mil|Location1.Y=16150.595mil|Location2.Y=16159.719mil|Absolute=True">Silk To Silk Clearance Constraint: (0.113mm &lt; 0.2mm) Between Text "A0-A1-A2" (21mm,108.5mm) on Bottom Overlay And Track (22.849mm,110.889mm)(26.151mm,110.889mm) on Bottom Overlay Silk Text to Silk Clearance [0.113mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.481mil|Location2.X=8811.605mil|Location1.Y=16259.058mil|Location2.Y=16268.182mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.481mil|Location2.X=8811.605mil|Location1.Y=16259.058mil|Location2.Y=16268.182mil|Absolute=True">Silk To Silk Clearance Constraint: (0.099mm &lt; 0.2mm) Between Text "A0-A1-A2" (21mm,108.5mm) on Bottom Overlay And Track (22.849mm,113.611mm)(26.151mm,113.611mm) on Bottom Overlay Silk Text to Silk Clearance [0.099mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.483mil|Location2.X=8811.607mil|Location1.Y=16308.349mil|Location2.Y=16317.473mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.483mil|Location2.X=8811.607mil|Location1.Y=16308.349mil|Location2.Y=16317.473mil|Absolute=True">Silk To Silk Clearance Constraint: (0.097mm &lt; 0.2mm) Between Text "A0-A1-A2" (21mm,108.5mm) on Bottom Overlay And Track (22.849mm,113.611mm)(22.849mm,115.389mm) on Bottom Overlay Silk Text to Silk Clearance [0.097mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8938.391mil|Location2.X=8947.515mil|Location1.Y=16430.672mil|Location2.Y=16439.796mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8938.391mil|Location2.X=8947.515mil|Location1.Y=16430.672mil|Location2.Y=16439.796mil|Absolute=True">Silk To Silk Clearance Constraint: (0.109mm &lt; 0.2mm) Between Text "R21" (26.5mm,116.25mm) on Bottom Overlay And Track (26.151mm,118.111mm)(26.151mm,119.889mm) on Bottom Overlay Silk Text to Silk Clearance [0.109mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.4mil|Location2.X=8812.062mil|Location1.Y=16432.569mil|Location2.Y=16441.964mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.4mil|Location2.X=8812.062mil|Location1.Y=16432.569mil|Location2.Y=16441.964mil|Absolute=True">Silk To Silk Clearance Constraint: (0.162mm &lt; 0.2mm) Between Text "A0-A1-A2" (21mm,108.5mm) on Bottom Overlay And Track (22.849mm,118.111mm)(26.151mm,118.111mm) on Bottom Overlay Silk Text to Silk Clearance [0.162mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8922.14mil|Location2.X=8931.264mil|Location1.Y=16430.672mil|Location2.Y=16439.796mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8922.14mil|Location2.X=8931.264mil|Location1.Y=16430.672mil|Location2.Y=16439.796mil|Absolute=True">Silk To Silk Clearance Constraint: (0.109mm &lt; 0.2mm) Between Text "R21" (26.5mm,116.25mm) on Bottom Overlay And Track (22.849mm,118.111mm)(26.151mm,118.111mm) on Bottom Overlay Silk Text to Silk Clearance [0.109mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.483mil|Location2.X=8811.607mil|Location1.Y=16498.288mil|Location2.Y=16507.412mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.483mil|Location2.X=8811.607mil|Location1.Y=16498.288mil|Location2.Y=16507.412mil|Absolute=True">Silk To Silk Clearance Constraint: (0.097mm &lt; 0.2mm) Between Text "A0-A1-A2" (21mm,108.5mm) on Bottom Overlay And Track (22.849mm,118.111mm)(22.849mm,119.889mm) on Bottom Overlay Silk Text to Silk Clearance [0.097mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.4mil|Location2.X=8812.061mil|Location1.Y=16502.56mil|Location2.Y=16511.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8802.4mil|Location2.X=8812.061mil|Location1.Y=16502.56mil|Location2.Y=16511.953mil|Absolute=True">Silk To Silk Clearance Constraint: (0.162mm &lt; 0.2mm) Between Text "A0-A1-A2" (21mm,108.5mm) on Bottom Overlay And Track (22.849mm,119.889mm)(26.151mm,119.889mm) on Bottom Overlay Silk Text to Silk Clearance [0.162mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9097.463mil|Location2.X=9106.587mil|Location1.Y=16430.657mil|Location2.Y=16439.781mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9097.463mil|Location2.X=9106.587mil|Location1.Y=16430.657mil|Location2.Y=16439.781mil|Absolute=True">Silk To Silk Clearance Constraint: (0.12mm &lt; 0.2mm) Between Text "R16" (31mm,116.25mm) on Bottom Overlay And Track (30.151mm,118.111mm)(30.151mm,119.889mm) on Bottom Overlay Silk Text to Silk Clearance [0.12mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9059.319mil|Location2.X=9068.443mil|Location1.Y=16430.672mil|Location2.Y=16439.796mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9059.319mil|Location2.X=9068.443mil|Location1.Y=16430.672mil|Location2.Y=16439.796mil|Absolute=True">Silk To Silk Clearance Constraint: (0.109mm &lt; 0.2mm) Between Text "R16" (31mm,116.25mm) on Bottom Overlay And Track (26.849mm,118.111mm)(30.151mm,118.111mm) on Bottom Overlay Silk Text to Silk Clearance [0.109mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9658.633mil|Location2.X=9667.757mil|Location1.Y=16484.131mil|Location2.Y=16493.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9658.633mil|Location2.X=9667.757mil|Location1.Y=16484.131mil|Location2.Y=16493.255mil|Absolute=True">Silk To Silk Clearance Constraint: (0.12mm &lt; 0.2mm) Between Text "R10" (48mm,119.5mm) on Bottom Overlay And Track (43.611mm,119.151mm)(45.389mm,119.151mm) on Bottom Overlay Silk Text to Silk Clearance [0.12mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11992.544mil|Location2.X=12001.668mil|Location1.Y=14013.422mil|Location2.Y=14022.546mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11992.544mil|Location2.X=12001.668mil|Location1.Y=14013.422mil|Location2.Y=14022.546mil|Absolute=True">Silk To Silk Clearance Constraint: (0.132mm &lt; 0.2mm) Between Text "CN5.14" (105.25mm,56.75mm) on Bottom Overlay And Track (101.099mm,56.389mm)(104.401mm,56.389mm) on Bottom Overlay Silk Text to Silk Clearance [0.132mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12020.699mil|Location2.X=12029.823mil|Location1.Y=14013.436mil|Location2.Y=14022.56mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12020.699mil|Location2.X=12029.823mil|Location1.Y=14013.436mil|Location2.Y=14022.56mil|Absolute=True">Silk To Silk Clearance Constraint: (0.143mm &lt; 0.2mm) Between Text "CN5.14" (105.25mm,56.75mm) on Bottom Overlay And Track (104.401mm,54.611mm)(104.401mm,56.389mm) on Bottom Overlay Silk Text to Silk Clearance [0.143mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9152.639mil|Location2.X=9158.888mil|Location1.Y=13964.494mil|Location2.Y=13970.743mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9152.639mil|Location2.X=9158.888mil|Location1.Y=13964.494mil|Location2.Y=13970.743mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.2mm) Between Text "Btn
+ON-OFF" (40.5mm,53.5mm) on Bottom Overlay And Track (31.5mm,53mm)(31.5mm,63mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11837.489mil|Location2.X=11846.613mil|Location1.Y=14643.862mil|Location2.Y=14652.986mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11837.489mil|Location2.X=11846.613mil|Location1.Y=14643.862mil|Location2.Y=14652.986mil|Absolute=True">Silk To Silk Clearance Constraint: (0.18mm &lt; 0.2mm) Between Text "LED2" (100mm,71mm) on Top Overlay And Track (96.299mm,72.611mm)(99.601mm,72.611mm) on Top Overlay Silk Text to Silk Clearance [0.18mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11837.489mil|Location2.X=11846.613mil|Location1.Y=14643.862mil|Location2.Y=14652.986mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11837.489mil|Location2.X=11846.613mil|Location1.Y=14643.862mil|Location2.Y=14652.986mil|Absolute=True">Silk To Silk Clearance Constraint: (0.18mm &lt; 0.2mm) Between Text "LED2" (100mm,71mm) on Top Overlay And Track (99.601mm,72.611mm)(99.601mm,74.389mm) on Top Overlay Silk Text to Silk Clearance [0.18mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDT34VA5RVJWCULKBGFXEKKYEQKJVJSUG0W0NHSHKTFMWNWMRUW3CH"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Height Constraint (Min=0mm) (Max=25mm) (Prefered=12.5mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12597.425mil|Location2.X=12599.425mil|Location1.Y=12400.575mil|Location2.Y=12402.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12597.425mil|Location2.X=12599.425mil|Location1.Y=12400.575mil|Location2.Y=12402.575mil|Absolute=True">Height Constraint: Component Pot3-10K (119mm,15.5mm) on Component Side Actual Height = 36mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8660.417mil|Location2.X=8662.417mil|Location1.Y=12400.575mil|Location2.Y=12402.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8660.417mil|Location2.X=8662.417mil|Location1.Y=12400.575mil|Location2.Y=12402.575mil|Absolute=True">Height Constraint: Component Pot2-10K (19mm,15.5mm) on Component Side Actual Height = 36mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10628.921mil|Location2.X=10630.921mil|Location1.Y=12400.575mil|Location2.Y=12402.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=Z:\ASSISTANT\GEVE-VENTILATOR_Altuim\PCB_Project\PCB_GEVE.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10628.921mil|Location2.X=10630.921mil|Location1.Y=12400.575mil|Location2.Y=12402.575mil|Absolute=True">Height Constraint: Component Pot1-10K (69mm,15.5mm) on Component Side Actual Height = 36mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

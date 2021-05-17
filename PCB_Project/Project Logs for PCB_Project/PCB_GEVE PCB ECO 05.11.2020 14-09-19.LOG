@@ -1,0 +1,589 @@
+Added Component: Designator=TP1(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP4(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP5(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP6(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP7(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP8(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP9(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP10(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP11(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP12(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP13(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP14(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP15(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP16(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP17(TP_PLATE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.198"; VariantName = "[No Variations]"
+Added Component: Designator=TP18(TP_PLATE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.198"; VariantName = "[No Variations]"
+Added Component: Designator=TP19(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP20(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP21(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP22(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP23(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP24(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP25(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP26(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP27(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP28(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP29(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP30(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Btn Errors Reset Pin=TP1-1
+Added Pin To Net: NetName=Btn On/Off Pin=TP2-1
+Added Pin To Net: NetName=POT_BPM Pin=TP3-1
+Added Pin To Net: NetName=POT_VT Pin=TP4-1
+Added Pin To Net: NetName=POT_IE Pin=TP5-1
+Added Pin To Net: NetName=24V Pin=TP6-1
+Added Pin To Net: NetName=CaptPression Pin=TP7-1
+Added Pin To Net: NetName=5V Pin=TP8-1
+Added Pin To Net: NetName=WAREA Pin=TP9-1
+Added Pin To Net: NetName=BUSY Pin=TP10-1
+Added Pin To Net: NetName=SDA Pin=TP11-1
+Added Pin To Net: NetName=SCL Pin=TP12-1
+Added Pin To Net: NetName=SETON Pin=TP13-1
+Added Pin To Net: NetName=INP Pin=TP14-1
+Added Pin To Net: NetName=NP+ Pin=TP15-1
+Added Pin To Net: NetName=PP+ Pin=TP16-1
+Added Pin To Net: NetName=GND Pin=TP17-1
+Added Pin To Net: NetName=GND Pin=TP18-1
+Added Pin To Net: NetName=NetTP19_1 Pin=TP19-1
+Added Pin To Net: NetName=NetTP19_1 Pin=U2-2
+Added Net: Name=NetTP19_1
+Added Pin To Net: NetName=NetTP20_1 Pin=TP20-1
+Added Pin To Net: NetName=NetTP20_1 Pin=U2-15
+Added Net: Name=NetTP20_1
+Added Pin To Net: NetName=NetTP21_1 Pin=TP21-1
+Added Pin To Net: NetName=NetTP21_1 Pin=U2-3
+Added Net: Name=NetTP21_1
+Added Pin To Net: NetName=NetTP22_1 Pin=TP22-1
+Added Pin To Net: NetName=NetTP22_1 Pin=U2-14
+Added Net: Name=NetTP22_1
+Added Pin To Net: NetName=NetTP23_1 Pin=TP23-1
+Added Pin To Net: NetName=NetTP23_1 Pin=U2-4
+Added Net: Name=NetTP23_1
+Added Pin To Net: NetName=NetTP24_1 Pin=TP24-1
+Added Pin To Net: NetName=NetTP24_1 Pin=U2-13
+Added Net: Name=NetTP24_1
+Added Pin To Net: NetName=NetTP25_1 Pin=TP25-1
+Added Pin To Net: NetName=NetTP25_1 Pin=U2-5
+Added Net: Name=NetTP25_1
+Added Pin To Net: NetName=NetTP26_1 Pin=TP26-1
+Added Pin To Net: NetName=NetTP26_1 Pin=U2-12
+Added Net: Name=NetTP26_1
+Added Pin To Net: NetName=NetTP27_1 Pin=TP27-1
+Added Pin To Net: NetName=NetTP27_1 Pin=U2-6
+Added Net: Name=NetTP27_1
+Added Pin To Net: NetName=NetTP28_1 Pin=TP28-1
+Added Pin To Net: NetName=NetTP28_1 Pin=U2-11
+Added Net: Name=NetTP28_1
+Added Pin To Net: NetName=NetTP29_1 Pin=TP29-1
+Added Pin To Net: NetName=NetTP29_1 Pin=U2-7
+Added Net: Name=NetTP29_1
+Added Pin To Net: NetName=NetTP30_1 Pin=TP30-1
+Added Pin To Net: NetName=NetTP30_1 Pin=U2-10
+Added Net: Name=NetTP30_1
+Added Member To Class: ClassName=Schema_GEVE Member=Component B1 CMT-1203-SMT-TR
+Added Member To Class: ClassName=Schema_GEVE Member=Component C1 1uF
+Added Member To Class: ClassName=Schema_GEVE Member=Component C2 1uF
+Added Member To Class: ClassName=Schema_GEVE Member=Component C3 1uF
+Added Member To Class: ClassName=Schema_GEVE Member=Component FB1 BLM31AJ601SN1L
+Added Member To Class: ClassName=Schema_GEVE Member=Component FB2 BLM31AJ601SN1L
+Added Member To Class: ClassName=Schema_GEVE Member=Component FB3 BLM31AJ601SN1L
+Added Member To Class: ClassName=Schema_GEVE Member=Component FB4 BLM31AJ601SN1L
+Added Member To Class: ClassName=Schema_GEVE Member=Component FB5 BLM31AJ601SN1L
+Added Member To Class: ClassName=Schema_GEVE Member=Component FB6 BLM31AJ601SN1L
+Added Member To Class: ClassName=Schema_GEVE Member=Component J1 AST0250204
+Added Member To Class: ClassName=Schema_GEVE Member=Component J2 AST0250204
+Added Member To Class: ClassName=Schema_GEVE Member=Component J3 AST0250204
+Added Member To Class: ClassName=Schema_GEVE Member=Component J4 AST0250204
+Added Member To Class: ClassName=Schema_GEVE Member=Component J5 AST0250204
+Added Member To Class: ClassName=Schema_GEVE Member=Component J6 AST0250204
+Added Member To Class: ClassName=Schema_GEVE Member=Component J7 AST0250204
+Added Member To Class: ClassName=Schema_GEVE Member=Component J8 AST0250204
+Added Member To Class: ClassName=Schema_GEVE Member=Component J9 AST0250204
+Added Member To Class: ClassName=Schema_GEVE Member=Component JU1 PREC002SAAN-RC
+Added Member To Class: ClassName=Schema_GEVE Member=Component LCD1 LCD2004A
+Added Member To Class: ClassName=Schema_GEVE Member=Component LED1 SM0603HCL
+Added Member To Class: ClassName=Schema_GEVE Member=Component LED2 SM0603HCL
+Added Member To Class: ClassName=Schema_GEVE Member=Component Pot1 10K
+Added Member To Class: ClassName=Schema_GEVE Member=Component Pot2 10K
+Added Member To Class: ClassName=Schema_GEVE Member=Component Pot3 10K
+Added Member To Class: ClassName=Schema_GEVE Member=Component Pot4 10k
+Added Member To Class: ClassName=Schema_GEVE Member=Component Q1 BC817-25,215
+Added Member To Class: ClassName=Schema_GEVE Member=Component R1 5k6
+Added Member To Class: ClassName=Schema_GEVE Member=Component R2 3k3
+Added Member To Class: ClassName=Schema_GEVE Member=Component R3 22k
+Added Member To Class: ClassName=Schema_GEVE Member=Component R4 5k6
+Added Member To Class: ClassName=Schema_GEVE Member=Component R5 3k3
+Added Member To Class: ClassName=Schema_GEVE Member=Component R6 22k
+Added Member To Class: ClassName=Schema_GEVE Member=Component R7 5k6
+Added Member To Class: ClassName=Schema_GEVE Member=Component R8 22k
+Added Member To Class: ClassName=Schema_GEVE Member=Component R9 5k6
+Added Member To Class: ClassName=Schema_GEVE Member=Component R10 4k7
+Added Member To Class: ClassName=Schema_GEVE Member=Component R11 0R
+Added Member To Class: ClassName=Schema_GEVE Member=Component R12 0R
+Added Member To Class: ClassName=Schema_GEVE Member=Component R13 4k7
+Added Member To Class: ClassName=Schema_GEVE Member=Component R14 4k7
+Added Member To Class: ClassName=Schema_GEVE Member=Component R15 10k
+Added Member To Class: ClassName=Schema_GEVE Member=Component R16 10k
+Added Member To Class: ClassName=Schema_GEVE Member=Component R17 10k
+Added Member To Class: ClassName=Schema_GEVE Member=Component R18 22k
+Added Member To Class: ClassName=Schema_GEVE Member=Component R19 5k6
+Added Member To Class: ClassName=Schema_GEVE Member=Component R20 0R
+Added Member To Class: ClassName=Schema_GEVE Member=Component R21 0R
+Added Member To Class: ClassName=Schema_GEVE Member=Component R22 0R
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP1 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP2 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP3 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP4 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP5 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP6 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP7 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP8 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP9 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP10 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP11 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP12 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP13 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP14 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP15 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP16 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP17 TP_PLATE
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP18 TP_PLATE
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP19 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP20 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP21 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP22 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP23 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP24 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP25 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP26 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP27 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP28 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP29 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component TP30 TP_HOOK
+Added Member To Class: ClassName=Schema_GEVE Member=Component U1 SSCDRNN160MDAA5
+Added Member To Class: ClassName=Schema_GEVE Member=Component U2 ULN2003ADR
+Added Member To Class: ClassName=Schema_GEVE Member=Component U3 ARDUINO_UNO_REV3
+Added Member To Class: ClassName=Schema_GEVE Member=Component U4 PCF8574T/3,518
+Added Room: Name=Schema_GEVE

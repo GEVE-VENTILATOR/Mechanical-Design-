@@ -1,0 +1,19 @@
+﻿  MODELE ROB-CEVE-A00 :
+ 
+
+  1 BOUCLES DE REFERENCE CIRCULAIRE TROUVEES
+ 
+
+   N° de boucle 1
+
+   Profondeur de la boucle = 3
+
+Numéro de fonction 55 (COMPOSANT, ID = 7664) 
+  dans le modèle ROB-CEVE-A00 se refère à:
+
+Numéro de fonction 5 (EXTRUSION_1, ID = 135) 
+  dans le modèle ROB-CEVE-P010 se refère à:
+
+Numéro de fonction 55 (COMPOSANT, ID = 7664) 
+  dans le modèle ROB-CEVE-A00 - cercle fermé.
+

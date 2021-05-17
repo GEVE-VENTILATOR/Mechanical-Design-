@@ -1,0 +1,1324 @@
+Added Component: Designator=B1(CMT-1203-SMT-TR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "B.Musy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpRUL"; Value = "https://www.findchips.com/search/CMT-1203-SMT-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastetRevisionDate"; Value = "03.11.2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "CMT-1203-SMT-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "102-2197-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C1(CAP_0603H0.8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DCVoltage (V)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F28"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/GRM188R61H105KAALD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "19.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "GRM188R61H105KAALD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_CAP-64"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pol"; Value = "NO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "81-GRM188R61H105KALD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "1276-1860-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAP_0603H0.8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DCVoltage (V)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F28"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/GRM188R61H105KAALD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "19.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "GRM188R61H105KAALD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_CAP-64"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pol"; Value = "NO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "81-GRM188R61H105KALD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "1276-1860-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAP_0603H0.8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DCVoltage (V)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F28"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/GRM188R61H105KAALD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "19.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "GRM188R61H105KAALD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_CAP-64"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pol"; Value = "NO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "81-GRM188R61H105KALD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "1276-1860-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=FB1(FERRITE_1206_1.1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DCRes (mOhm)"; Value = "0.9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "FG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Imax(A)"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "25.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_IND-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "81-BLM31A601S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=FB2(FERRITE_1206_1.1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DCRes (mOhm)"; Value = "0.9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "FG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Imax(A)"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "25.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_IND-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "81-BLM31A601S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=FB3(FERRITE_1206_1.1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DCRes (mOhm)"; Value = "0.9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "FG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Imax(A)"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "25.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_IND-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "81-BLM31A601S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=FB4(FERRITE_1206_1.1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DCRes (mOhm)"; Value = "0.9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "FG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Imax(A)"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "25.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_IND-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "81-BLM31A601S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=FB5(FERRITE_1206_1.1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DCRes (mOhm)"; Value = "0.9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "FG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Imax(A)"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "25.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_IND-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "81-BLM31A601S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=FB6(FERRITE_1206_1.1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DCRes (mOhm)"; Value = "0.9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "FG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Imax(A)"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "25.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "BLM31AJ601SN1L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_IND-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "81-BLM31A601S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=J1(AST0250204)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J2(AST0250204)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J3(AST0250204)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J4(AST0250204)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J5(AST0250204)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J6(AST0250204)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J7(AST0250204)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J8(AST0250204)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J9(AST0250204)
+Add component. Clean all parameters for all variants
+Added Component: Designator=JU1(Jumper_2P_P2.54)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "M_Electromechanic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/PREC002SAAN-RC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "03.03.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Sullins Connector Solutions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "PREC002SAAN-RC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_EME-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "S1012EC-02-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.12"; VariantName = "[No Variations]"
+Added Component: Designator=LCD1(LCD2004)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LED1(LED_0603-12)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "FG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/SM0603HCL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "18.01.2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bivar"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "SM0603HCL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_OPT-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "PoliHVGen"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "749-SM0603HCL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "492-2524-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.35"; VariantName = "[No Variations]"
+Added Component: Designator=LED2(LED_0603-12)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "FG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/SM0603HCL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "18.01.2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bivar"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "SM0603HCL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_OPT-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "PoliHVGen"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "749-SM0603HCL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "492-2524-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.35"; VariantName = "[No Variations]"
+Added Component: Designator=Pot1(PCW1J-B28-BAB103L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=Pot2(PCW1J-B28-BAB103L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=Pot3(PCW1J-B28-BAB103L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=Pot4(Trimpot-3313-J1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "JCO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_MISC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/3313J-1-103E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "23.04.2018"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "3313J-1-103E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-331"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.125"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "652-3313J-1-103E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "3313J-103ECT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "2.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(DIP16)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "B.Musy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.findchips.com/search/ULN2064B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastestRevisionDate"; Value = "03.11.2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "ULN2064B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SupplierPN"; Value = "497-2348-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "2.56"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(SOT23-3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_SOT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/BC817-25,215"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "12.04.2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP Semi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "BC817-25,215"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_TRS-9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "PTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "771-BC817-25-T/R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "568-1630-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Bip-NPN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.13"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C5601FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C5601FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-92"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C5601FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k6"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C3301FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C3301FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-86"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C3301FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3k3"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C2202FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C2202FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C2202FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22k"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C5601FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C5601FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-92"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C5601FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k6"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C3301FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C3301FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-86"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C3301FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3k3"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C2202FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C2202FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C2202FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22k"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C5601FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C5601FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-92"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C5601FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k6"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C2202FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C2202FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C2202FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22k"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C5601FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C5601FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-92"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C5601FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k6"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C4701FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C4701FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-90"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C4701FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030Z0000ZP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030Z0000ZP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030Z0000ZP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.047"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030Z0000ZP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030Z0000ZP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030Z0000ZP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.047"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C4701FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C4701FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-90"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C4701FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C4701FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C4701FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-90"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C4701FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4k7"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = "71-CRW060310K0KEAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = "Attention +/- 100ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C1002FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C1002FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-98"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C1002FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R16(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = "71-CRW060310K0KEAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = "Attention +/- 100ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C1002FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C1002FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-98"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C1002FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R17(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = "71-CRW060310K0KEAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = "Attention +/- 100ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C1002FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C1002FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-98"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C1002FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R18(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C2202FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C2202FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C2202FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22k"; VariantName = "[No Variations]"
+Added Component: Designator=R19(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030C5601FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030C5601FP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-92"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030C5601FP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k6"; VariantName = "[No Variations]"
+Added Component: Designator=R20(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030Z0000ZP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030Z0000ZP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030Z0000ZP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.047"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R21(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030Z0000ZP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030Z0000ZP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030Z0000ZP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.047"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R22(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F26"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "F27"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "SM_CHIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/MCT06030Z0000ZP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "16.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "MCT06030Z0000ZP500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "D_RES-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pwr Rating (W)"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "594-MCT06030Z0000ZP5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tcoef (PPM/°C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tol (%)"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.047"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=TP1(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP4(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP5(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP6(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP7(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP8(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP9(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP10(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP11(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP12(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP13(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP14(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP15(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP16(TP_HOOK)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-5001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.352"; VariantName = "[No Variations]"
+Added Component: Designator=TP17(TP_PLATE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.198"; VariantName = "[No Variations]"
+Added Component: Designator=TP18(TP_PLATE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "R.Mastrocola"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = "TH_TESTPOINTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.findchips.com/search/1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17.02.2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "M_TST-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Projet"; Value = "Labo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "534-1035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier2PN"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "0.198"; VariantName = "[No Variations]"
+Added Component: Designator=U1(DIP8 SSC Series)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "B.Musy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Category"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.findchips.com/search/SSCDRNN160MDAA5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastestRevisionDate"; Value = "03.11.2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Honeywell Sensing and Productivity Solutions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "SSCDRNN160MDAA5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part_Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "480-5448-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "30.96"; VariantName = "[No Variations]"
+Added Component: Designator=U2(ARDUINO_A000066)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U3(FP-SOT162-1-MFG)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Ambient Temperature Range High"; Value = "+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ambient Temperature Range Low"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Interface ICs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "I/O Expanders"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "IC I/O EXPANDER I2C 8B 16SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Footprint Url"; Value = "https://www.nxp.com/docs/en/package-information/SOT162-1.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "2.65mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface"; Value = "I2C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipc Land Pattern Name"; Value = "SOIC127P1032X265-16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "PCF8574T/3,518"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Junction Temp"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "6V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "2.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "PCF8574 Series 2.5 - 6V Remote 8-bit I/O Expander for I2C-bus - SOIC-16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Nominal Supply Current"; Value = "40uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of I/Os"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/pcf8574t%2F3%2C518-nxp+semiconductors-10470852"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT162-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standoff Height"; Value = "0.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-40°C to +85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-40°C"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V LCD Pin=C2-1
+Added Pin To Net: NetName=5V LCD Pin=FB2-2
+Added Pin To Net: NetName=5V LCD Pin=FB3-2
+Added Pin To Net: NetName=5V LCD Pin=LCD1-2
+Added Pin To Net: NetName=5V LCD Pin=LCD1-6
+Added Net: Name=5V LCD
+Added Pin To Net: NetName=5V Pin=FB1-1
+Added Pin To Net: NetName=5V Pin=FB2-1
+Added Pin To Net: NetName=5V Pin=FB3-1
+Added Pin To Net: NetName=5V Pin=FB4-1
+Added Pin To Net: NetName=5V Pin=JU1-1
+Added Pin To Net: NetName=5V Pin=Pot1-1
+Added Pin To Net: NetName=5V Pin=Pot2-1
+Added Pin To Net: NetName=5V Pin=Pot3-1
+Added Pin To Net: NetName=5V Pin=Pot4-1
+Added Pin To Net: NetName=5V Pin=R2-1
+Added Pin To Net: NetName=5V Pin=R13-1
+Added Pin To Net: NetName=5V Pin=R14-1
+Added Pin To Net: NetName=5V Pin=R15-1
+Added Pin To Net: NetName=5V Pin=R16-1
+Added Pin To Net: NetName=5V Pin=R17-1
+Added Pin To Net: NetName=5V Pin=TP8-1
+Added Pin To Net: NetName=5V Pin=U2-5
+Added Net: Name=5V
+Added Pin To Net: NetName=24V Pin=J4-1
+Added Pin To Net: NetName=24V Pin=J5-1
+Added Pin To Net: NetName=24V Pin=Q1-1
+Added Pin To Net: NetName=24V Pin=R1-2
+Added Pin To Net: NetName=24V Pin=TP6-1
+Added Net: Name=24V
+Added Pin To Net: NetName=Btn Errors Reset Pin=J1-1
+Added Pin To Net: NetName=Btn Errors Reset Pin=TP1-1
+Added Pin To Net: NetName=Btn Errors Reset Pin=U2-18
+Added Net: Name=Btn Errors Reset
+Added Pin To Net: NetName=Btn On/Off Pin=J2-1
+Added Pin To Net: NetName=Btn On/Off Pin=TP2-1
+Added Pin To Net: NetName=Btn On/Off Pin=U2-17
+Added Net: Name=Btn On/Off
+Added Pin To Net: NetName=BUSY Pin=R6-2
+Added Pin To Net: NetName=BUSY Pin=R7-1
+Added Pin To Net: NetName=BUSY Pin=TP10-1
+Added Pin To Net: NetName=BUSY Pin=U2-20
+Added Net: Name=BUSY
+Added Pin To Net: NetName=CaptPression Pin=TP7-1
+Added Pin To Net: NetName=CaptPression Pin=U1-3
+Added Pin To Net: NetName=CaptPression Pin=U2-12
+Added Net: Name=CaptPression
+Added Pin To Net: NetName=GND24V Pin=FB5-1
+Added Pin To Net: NetName=GND24V Pin=FB6-1
+Added Pin To Net: NetName=GND24V Pin=J4-2
+Added Pin To Net: NetName=GND24V Pin=J8-2
+Added Pin To Net: NetName=GND24V Pin=J9-2
+Added Pin To Net: NetName=GND24V Pin=Q1-4
+Added Pin To Net: NetName=GND24V Pin=Q1-5
+Added Pin To Net: NetName=GND24V Pin=Q1-6
+Added Pin To Net: NetName=GND24V Pin=Q1-11
+Added Pin To Net: NetName=GND24V Pin=Q1-12
+Added Pin To Net: NetName=GND24V Pin=Q1-13
+Added Pin To Net: NetName=GND24V Pin=Q1-14
+Added Pin To Net: NetName=GND24V Pin=R4-2
+Added Pin To Net: NetName=GND24V Pin=R7-2
+Added Pin To Net: NetName=GND24V Pin=R9-2
+Added Pin To Net: NetName=GND24V Pin=R19-2
+Added Net: Name=GND24V
+Added Pin To Net: NetName=GND Pin=B1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=FB5-2
+Added Pin To Net: NetName=GND Pin=FB6-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=LCD1-1
+Added Pin To Net: NetName=GND Pin=LCD1-5
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Pin To Net: NetName=GND Pin=LED2-2
+Added Pin To Net: NetName=GND Pin=Pot1-3
+Added Pin To Net: NetName=GND Pin=Pot2-3
+Added Pin To Net: NetName=GND Pin=Pot3-3
+Added Pin To Net: NetName=GND Pin=Pot4-3
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=GND Pin=R20-2
+Added Pin To Net: NetName=GND Pin=R21-2
+Added Pin To Net: NetName=GND Pin=R22-2
+Added Pin To Net: NetName=GND Pin=TP17-1
+Added Pin To Net: NetName=GND Pin=TP18-1
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=GND Pin=U2-7
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Net: Name=GND
+Added Pin To Net: NetName=INP Pin=R18-2
+Added Pin To Net: NetName=INP Pin=R19-1
+Added Pin To Net: NetName=INP Pin=TP14-1
+Added Pin To Net: NetName=INP Pin=U2-22
+Added Net: Name=INP
+Added Pin To Net: NetName=NetB1_2 Pin=B1-2
+Added Pin To Net: NetName=NetB1_2 Pin=U2-24
+Added Net: Name=NetB1_2
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=FB1-2
+Added Pin To Net: NetName=NetC1_1 Pin=U1-2
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=FB4-2
+Added Pin To Net: NetName=NetC3_1 Pin=U3-16
+Added Net: Name=NetC3_1
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_1 Pin=Q1-2
+Added Pin To Net: NetName=NetJ3_1 Pin=R1-1
+Added Net: Name=NetJ3_1
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_1 Pin=R3-1
+Added Net: Name=NetJ6_1
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Pin To Net: NetName=NetJ6_2 Pin=R6-1
+Added Net: Name=NetJ6_2
+Added Pin To Net: NetName=NetJ7_1 Pin=J7-1
+Added Pin To Net: NetName=NetJ7_1 Pin=R8-1
+Added Net: Name=NetJ7_1
+Added Pin To Net: NetName=NetJ7_2 Pin=J7-2
+Added Pin To Net: NetName=NetJ7_2 Pin=R18-1
+Added Net: Name=NetJ7_2
+Added Pin To Net: NetName=NetJU1_2 Pin=JU1-2
+Added Pin To Net: NetName=NetJU1_2 Pin=LCD1-19
+Added Net: Name=NetJU1_2
+Added Pin To Net: NetName=NetLCD1_7 Pin=LCD1-7
+Added Pin To Net: NetName=NetLCD1_7 Pin=Pot4-2
+Added Net: Name=NetLCD1_7
+Added Pin To Net: NetName=NetLCD1_8 Pin=LCD1-8
+Added Pin To Net: NetName=NetLCD1_8 Pin=U3-4
+Added Net: Name=NetLCD1_8
+Added Pin To Net: NetName=NetLCD1_9 Pin=LCD1-9
+Added Pin To Net: NetName=NetLCD1_9 Pin=U3-5
+Added Net: Name=NetLCD1_9
+Added Pin To Net: NetName=NetLCD1_10 Pin=LCD1-10
+Added Pin To Net: NetName=NetLCD1_10 Pin=U3-6
+Added Net: Name=NetLCD1_10
+Added Pin To Net: NetName=NetLCD1_15 Pin=LCD1-15
+Added Pin To Net: NetName=NetLCD1_15 Pin=U3-9
+Added Net: Name=NetLCD1_15
+Added Pin To Net: NetName=NetLCD1_16 Pin=LCD1-16
+Added Pin To Net: NetName=NetLCD1_16 Pin=U3-10
+Added Net: Name=NetLCD1_16
+Added Pin To Net: NetName=NetLCD1_17 Pin=LCD1-17
+Added Pin To Net: NetName=NetLCD1_17 Pin=U3-11
+Added Net: Name=NetLCD1_17
+Added Pin To Net: NetName=NetLCD1_18 Pin=LCD1-18
+Added Pin To Net: NetName=NetLCD1_18 Pin=U3-12
+Added Net: Name=NetLCD1_18
+Added Pin To Net: NetName=NetLCD1_20 Pin=LCD1-20
+Added Pin To Net: NetName=NetLCD1_20 Pin=Q2-3
+Added Net: Name=NetLCD1_20
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R2-2
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_1 Pin=R5-2
+Added Net: Name=NetLED2_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R10-2
+Added Pin To Net: NetName=NetQ2_1 Pin=U3-7
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_1 Pin=U2-28
+Added Net: Name=NetR5_1
+Added Pin To Net: NetName=NetR11_2 Pin=R11-2
+Added Pin To Net: NetName=NetR11_2 Pin=R14-2
+Added Pin To Net: NetName=NetR11_2 Pin=U3-15
+Added Net: Name=NetR11_2
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=NetR12_2 Pin=R13-2
+Added Pin To Net: NetName=NetR12_2 Pin=U3-14
+Added Net: Name=NetR12_2
+Added Pin To Net: NetName=NetR15_2 Pin=R15-2
+Added Pin To Net: NetName=NetR15_2 Pin=R20-1
+Added Pin To Net: NetName=NetR15_2 Pin=U3-3
+Added Net: Name=NetR15_2
+Added Pin To Net: NetName=NetR16_2 Pin=R16-2
+Added Pin To Net: NetName=NetR16_2 Pin=R21-1
+Added Pin To Net: NetName=NetR16_2 Pin=U3-2
+Added Net: Name=NetR16_2
+Added Pin To Net: NetName=NetR17_2 Pin=R17-2
+Added Pin To Net: NetName=NetR17_2 Pin=R22-1
+Added Pin To Net: NetName=NetR17_2 Pin=U3-1
+Added Net: Name=NetR17_2
+Added Pin To Net: NetName=NP+ Pin=J8-1
+Added Pin To Net: NetName=NP+ Pin=TP15-1
+Added Pin To Net: NetName=NP+ Pin=U2-25
+Added Net: Name=NP+
+Added Pin To Net: NetName=POT_BPM Pin=Pot1-2
+Added Pin To Net: NetName=POT_BPM Pin=TP3-1
+Added Pin To Net: NetName=POT_BPM Pin=U2-9
+Added Net: Name=POT_BPM
+Added Pin To Net: NetName=POT_IE Pin=Pot3-2
+Added Pin To Net: NetName=POT_IE Pin=TP5-1
+Added Pin To Net: NetName=POT_IE Pin=U2-11
+Added Net: Name=POT_IE
+Added Pin To Net: NetName=POT_VT Pin=Pot2-2
+Added Pin To Net: NetName=POT_VT Pin=TP4-1
+Added Pin To Net: NetName=POT_VT Pin=U2-10
+Added Net: Name=POT_VT
+Added Pin To Net: NetName=PP+ Pin=J9-1
+Added Pin To Net: NetName=PP+ Pin=TP16-1
+Added Pin To Net: NetName=PP+ Pin=U2-26
+Added Net: Name=PP+
+Added Pin To Net: NetName=SCL Pin=LCD1-4
+Added Pin To Net: NetName=SCL Pin=R12-1
+Added Pin To Net: NetName=SCL Pin=TP12-1
+Added Pin To Net: NetName=SCL Pin=U2-14
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=LCD1-3
+Added Pin To Net: NetName=SDA Pin=R11-1
+Added Pin To Net: NetName=SDA Pin=TP11-1
+Added Pin To Net: NetName=SDA Pin=U2-13
+Added Net: Name=SDA
+Added Pin To Net: NetName=SETON Pin=R8-2
+Added Pin To Net: NetName=SETON Pin=R9-1
+Added Pin To Net: NetName=SETON Pin=TP13-1
+Added Pin To Net: NetName=SETON Pin=U2-21
+Added Net: Name=SETON
+Added Pin To Net: NetName=SETUP Pin=Q1-3
+Added Pin To Net: NetName=SETUP Pin=U2-27
+Added Net: Name=SETUP
+Added Pin To Net: NetName=WAREA Pin=R3-2
+Added Pin To Net: NetName=WAREA Pin=R4-1
+Added Pin To Net: NetName=WAREA Pin=TP9-1
+Added Pin To Net: NetName=WAREA Pin=U2-19
+Added Net: Name=WAREA
+Added Class: Name=Schema_GEVE
+Added Room: Name=Schema_GEVE

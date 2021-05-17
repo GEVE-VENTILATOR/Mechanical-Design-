@@ -1,0 +1,36 @@
+Added Component: Designator=U3(ARDUINO_A000066)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Designer"; Value = "B.Musy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.findchips.com/search/A000066"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastestRevisionDate"; Value = "05.11.2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Arduino"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPN"; Value = "A000066"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier1PN"; Value = "1050-1024-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UnitaryCost"; Value = "20.20"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=U3-5
+Added Pin To Net: NetName=GND Pin=U3-6
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=POT_BPM Pin=U3-9
+Added Pin To Net: NetName=POT_VT Pin=U3-10
+Added Pin To Net: NetName=POT_IE Pin=U3-11
+Added Pin To Net: NetName=CaptPression Pin=U3-12
+Added Pin To Net: NetName=SDA Pin=U3-13
+Added Pin To Net: NetName=SCL Pin=U3-14
+Added Pin To Net: NetName=NetTP32_1 Pin=U3-15
+Added Pin To Net: NetName=NetTP31_1 Pin=U3-16
+Added Pin To Net: NetName=Btn On/Off Pin=U3-17
+Added Pin To Net: NetName=Btn Errors Reset Pin=U3-18
+Added Pin To Net: NetName=WAREA Pin=U3-19
+Added Pin To Net: NetName=BUSY Pin=U3-20
+Added Pin To Net: NetName=SETON Pin=U3-21
+Added Pin To Net: NetName=INP Pin=U3-22
+Added Pin To Net: NetName=NetTP33_1 Pin=U3-23
+Added Pin To Net: NetName=NetB1_2 Pin=U3-24
+Added Pin To Net: NetName=NP+ Pin=U3-25
+Added Pin To Net: NetName=PP+ Pin=U3-26
+Added Pin To Net: NetName=SETUP Pin=U3-27
+Added Pin To Net: NetName=NetR5_1 Pin=U3-28
+Added Pin To Net: NetName=GND Pin=U3-29
+Added Member To Class: ClassName=Schema_GEVE Member=Component U1 SSCDRNN160MDAA5
+Added Member To Class: ClassName=Schema_GEVE Member=Component U3 ARDUINO_UNO_REV3

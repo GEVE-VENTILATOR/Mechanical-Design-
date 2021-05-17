@@ -1,0 +1,21 @@
+Added Component: Designator=Pot1(PCW1J-B28-BAB103L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=Pot2(PCW1J-B28-BAB103L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=Pot3(PCW1J-B28-BAB103L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=Pot1-1
+Added Pin To Net: NetName=POT_BPM Pin=Pot1-2
+Added Pin To Net: NetName=GND Pin=Pot1-3
+Added Pin To Net: NetName=5V Pin=Pot2-1
+Added Pin To Net: NetName=POT_VT Pin=Pot2-2
+Added Pin To Net: NetName=GND Pin=Pot2-3
+Added Pin To Net: NetName=5V Pin=Pot3-1
+Added Pin To Net: NetName=POT_IE Pin=Pot3-2
+Added Pin To Net: NetName=GND Pin=Pot3-3
+Added Member To Class: ClassName=Schema_GEVE Member=Component Pot1 10K
+Added Member To Class: ClassName=Schema_GEVE Member=Component Pot2 10K
+Added Member To Class: ClassName=Schema_GEVE Member=Component Pot3 10K

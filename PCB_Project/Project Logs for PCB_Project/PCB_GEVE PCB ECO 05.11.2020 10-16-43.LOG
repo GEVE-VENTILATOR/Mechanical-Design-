@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=Q2 NewDesignator=Q1
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Change Component Designator: OldDesignator=U3 NewDesignator=U4
+Change Component Designator: OldDesignator=U4 NewDesignator=U2
+Change Net Name : Old Net Name=NetQ2_1 New Net Name=NetQ1_1
+Added Room: Name=Schema_GEVE
